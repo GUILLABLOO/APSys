@@ -874,7 +874,7 @@ static void cmd_datetime(asyxbox_ctx_t*ctx){
 
 /* HelP|HP */
 static void cmd_help(asyxbox_ctx_t*ctx){
-    ctx->print_line("take a look: https://guillabloo.github.io/APSys-site/",120,210,255)
+    ctx->print_line("take a look: https://guillabloo.github.io/APSys-site/",120,210,255);
 }
 
 /*  */
