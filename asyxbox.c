@@ -874,42 +874,7 @@ static void cmd_datetime(asyxbox_ctx_t*ctx){
 
 /* HelP|HP */
 static void cmd_help(asyxbox_ctx_t*ctx){
-    ctx->print_line("--- COMMANDS ---",120,210,255);
-    ctx->print_line("HP        : HelP (this list)",220,220,220);
-    ctx->print_line("COTS      : Creator Of This System",220,220,220);
-    ctx->print_line("CT        : show Current Target",120,240,140);
-    ctx->print_line("CT <PATH> : Change Target (go there)",120,240,140);
-    ctx->print_line("CT -T     : Top - up one room",120,240,140);
-    ctx->print_line("CT -FR    : Full Return - back home",120,240,140);
-    ctx->print_line("SA        : See All here",120,240,140);
-    ctx->print_line("SA <PATH> : See All there",120,240,140);
-    ctx->print_line("CE TO <P> NAME <N> : CrEate (.ROOM = room)",120,240,140);
-    ctx->print_line("RE FROM <P> NAME <N> : REmove file / room",255,150,150);
-    ctx->print_line("JARO FROM <P> NAME <N.ASM> : code editor",120,240,140);
-#if APSYS_FATWR
-    ctx->print_line("WT TO <P> NAME <N> TEXT <T> : write text",120,240,140);
-#endif
-    ctx->print_line("DK        : DisK + volume addresses",220,220,220);
-    ctx->print_line("PC        : Pci storage controllers",220,220,220);
-    ctx->print_line("CALC      : calculator",120,240,140);
-    ctx->print_line("CHESS     : 3D chess",120,240,140);
-    ctx->print_line("BALLS     : balls game",120,240,140);
-    ctx->print_line("asmc from <P> Name <N.asm> : ASM compiler (indev)",120,240,140);
-    ctx->print_line("ASB FROM <P> NAME <N.BIN> : AsyaStartBin",120,240,140);
-    ctx->print_line("          native flat 32-bit @ 0X01000000",180,180,200);
-    ctx->print_line("SI        : SysInfo",220,220,220);
-    ctx->print_line("DT        : DaTe & Time",220,220,220);
-    ctx->print_line("HD        : HDA diagnostics",220,220,220);
-    ctx->print_line("SH <mode> : <terminal> / <arthe>",220,220,220);
-    ctx->print_line("PT <text> : Print text",220,220,220);
-    ctx->print_line("CR        : Clear screen",220,220,220);
-    ctx->print_line("CO/colors : COlors demo",220,220,220);
-    ctx->print_line("DRAW      : paint tool (Arthe only)",120,240,140);
-    ctx->print_line("CUBE      : cube",220,220,220);
-    ctx->print_line("CUBEF     : tesseract",220,220,220);
-    ctx->print_line("SETTINGS  : Arthe desktop settings",120,240,140);
-    ctx->print_line("FSC IN <C02> TYPE <FAT32|EXT2> : format",255,150,150);
-    ctx->print_line("RB / SN   : ReBoot / ShutdowN",220,220,220);
+    ctx->print_line("take a look: https://guillabloo.github.io/APSys-site/",120,210,255)
 }
 
 /*  */
